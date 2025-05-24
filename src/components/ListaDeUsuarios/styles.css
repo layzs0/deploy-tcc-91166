@@ -1,0 +1,51 @@
+/* src\components\ListaDeUsuarios\styles.css */
+
+.tabela-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #006400; /* Verde escuro */
+  margin-bottom: 20px;
+}
+
+.tabela-jogadores {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.tabela-jogadores th,
+.tabela-jogadores td {
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabela-jogadores th {
+  background-color: #275ee0; /* Verde campo */
+  color: white;
+  font-weight: bold;
+}
+
+.tabela-jogadores tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.tabela-jogadores tr:hover {
+  background-color: #d4edda;
+}
+
+.mensagem {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+}

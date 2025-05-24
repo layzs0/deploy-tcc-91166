@@ -1,0 +1,75 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url('https://calciodeal.com/wp-content/uploads/2023/07/thumb2-bahia-fc-brazilian-football-club-emblem-logo-brazilian-serie-a.jpg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 32px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.home-container::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(194, 194, 194, 0.425); /* Sobreposição escura opcional */
+    z-index: -1;
+}
+
+
+.home-box {
+    background-color: #ffffff;
+    /* Branco - uniforme */
+    border: 3px solid #000000;
+    /* Preto - bola */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 1000px;
+}
+
+.home-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: black;
+    /* Verde escuro */
+    font-weight: bold;
+}
+
+.home-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-button.green {
+    background-color: #4670d3;
+    /* Verde claro - campo */
+    color: white;
+}
+
+.home-button.green:hover {
+    background-color: #2250bb;
+}
+
+.home-button.white {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.home-button.white:hover {
+    background-color: #f0f0f0;
+}
